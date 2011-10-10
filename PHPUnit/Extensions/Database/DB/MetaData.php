@@ -57,12 +57,13 @@
 abstract class PHPUnit_Extensions_Database_DB_MetaData implements PHPUnit_Extensions_Database_DB_IMetaData
 {
     protected static $metaDataClassMap = array(
-        'pgsql'  => 'PHPUnit_Extensions_Database_DB_MetaData_PgSQL',
-        'mysql'  => 'PHPUnit_Extensions_Database_DB_MetaData_MySQL',
-        'oci'    => 'PHPUnit_Extensions_Database_DB_MetaData_Oci',
-        'sqlite' => 'PHPUnit_Extensions_Database_DB_MetaData_Sqlite',
-        'sqlite2'=> 'PHPUnit_Extensions_Database_DB_MetaData_Sqlite',
-        'sqlsrv' => 'PHPUnit_Extensions_Database_DB_MetaData_SqlSrv'
+        'pgsql'    => 'PHPUnit_Extensions_Database_DB_MetaData_PgSQL',
+        'mysql'    => 'PHPUnit_Extensions_Database_DB_MetaData_MySQL',
+        'oci'      => 'PHPUnit_Extensions_Database_DB_MetaData_Oci',
+        'sqlite'   => 'PHPUnit_Extensions_Database_DB_MetaData_Sqlite',
+        'sqlite2'  => 'PHPUnit_Extensions_Database_DB_MetaData_Sqlite',
+        'sqlsrv'   => 'PHPUnit_Extensions_Database_DB_MetaData_SqlSrv',
+        'informix' => 'PHPUnit_Extensions_Database_DB_MetaData_Informix'
     );
 
     /**
